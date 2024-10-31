@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Queue Number Display</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadQueueNumber()">
+  <div class="container">
+    <div class="header">
+      <h2>SISTEM NOMBOR GILIRAN HOSPITAL</h2>
+    </div>
+    <div class="queue-box">
+      <h2>NOMBOR SEMASA</h2>
+      <h1 id="currentQueue">Loading...</h1>
+    </div>
+    <h2>NOMBOR TELAH DIPANGGIL</h2>
+    <ul id="previousQueues"></ul>
+    <div class="footer">
+      &copy; 2024 SISTEM NOMBOR GILIRAN HOSPITAL
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
